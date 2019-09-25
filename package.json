@@ -1,0 +1,13 @@
+{
+  "name":"gui",
+  "version":"1.0.0",
+  "main":"gui.js",
+  "scripts":{
+      "start":"Ingredient-Visibility-GUI."
+  },
+  "author":"Isabella Pham",
+  "license":"N/A",
+  "devDependencies":{
+    "electron":"^1.4.10"
+  }
+}

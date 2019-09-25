@@ -1,0 +1,12 @@
+body{
+  background-image: url("background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+.heading{
+  font-family: "Arial",sans-serif;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  color: white;
+}
