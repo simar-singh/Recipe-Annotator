@@ -86,3 +86,22 @@ img{
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+img {
+  width: 400px;
+  height: 380px;
+  border: 0.5px solid #ffffff;
+  border-radius: 2px;
+  padding: 0.5px;
+  display: block;
+  margin-left: 650px;
+  margin-top: -220px;
+}
+.btn {
+  border: 2px solid #ffffff;
+  background-color: inherit;
+  font-size: 20px;
+  color: white;
+}
+.btn:hover {background: #d3d3d3;}
+.submit {color: white;}
