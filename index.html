@@ -4,43 +4,83 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div class = "heading">
-    <h1>Ingredient Visibility GUI</h1>
-    <h2>Instructions: To the left is a list of ingredients for a given recipe. If an ingredient is visible in its respective recipe image to the right, checkmark it.</h2>
-  </div>
-  <label class="container">Ground Beef
-    <input type="checkbox">
-    <span class="checkmark"></span>
-  </label>
-  <div class "main">
-    <label class="container">Green Pepper
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Onion
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Garlic Cloves
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Diced Tomatoes
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Salt
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-    <label class="container">Thin Spaghetti
-      <input type="checkbox">
-      <span class="checkmark"></span>
-    </label>
-  </div>
-<div>
-	<img src="spaghetti.jpg" alt="Spaghetti Image" align="right">
-	</img>
-</div>
+		<div class = "heading">
+    			<h1>Ingredient Visibility GUI</h1>
+    			<h2>Instructions: To the left is a list of ingredients for a given recipe. If an ingredient is visible in its respective recipe image to the right, checkmark it.</h2>
+  		</div>
+
+
+<!--
+Create table
+-->
+<table>
+	<tr>
+		<!--
+		<colgroup>
+			<col span="1" style="background-color:blue">
+		</colgroup>
+		-->
+
+		<!--
+		Create checkboxes
+		-->
+		   <td width="25%">
+  			<label class="container">Ground Beef
+    				<input type="checkbox">
+    				<span class="checkmark"></span>
+  			</label>
+  		   <div class "main">
+    			<label class="container">Green Pepper
+      			<input type="checkbox">
+			     <span class="checkmark"></span>
+    			</label>
+		     <label class="container">Onion
+      			<input type="checkbox">
+      			<span class="checkmark"></span>
+    			</label>
+    			<label class="container">Garlic Cloves
+      			<input type="checkbox">
+      			<span class="checkmark"></span>
+    			</label>
+    			<label class="container">Diced Tomatoes
+      			<input type="checkbox">
+      			<span class="checkmark"></span>
+    			</label>
+    			<label class="container">Salt
+      			<input type="checkbox">
+      			<span class="checkmark"></span>
+    			</label>
+    			<label class="container">Thin Spaghetti
+      			<input type="checkbox">
+      			<span class="checkmark"></span>
+    			</label>
+  		   </div>
+		</td>
+		
+
+		<!--
+		Insert image
+		-->
+		<td width="75%">
+			<div>
+				<img src="spaghetti.jpg" alt="Spaghetti 							Image" align="right">
+				</img>
+			</div>
+		</td>
+	</tr>
+
+<!--
+Create button
+-->
+	<tr>
+		<td>
+			<div class="main">
+				<button type="button" align="bottom">							Submit</button>
+			</div>
+		</td>
+	</tr>
+
+</table>
+
 </body>
 </html>
