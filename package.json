@@ -1,13 +1,8 @@
 {
-  "name":"gui",
-  "version":"1.0.0",
-  "main":"gui.js",
-  "scripts":{
-      "start":"Ingredient-Visibility-GUI."
-  },
-  "author":"Isabella Pham",
-  "license":"N/A",
-  "devDependencies":{
-    "electron":"^1.4.10"
-  }
+    "engines": {
+        "node": "8.x"
+    },
+    "scripts": {
+        "heroku-postbuild": "sh tools/heroku.sh build"
+    }
 }
