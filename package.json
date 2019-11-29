@@ -4,5 +4,8 @@
     },
     "scripts": {
         "heroku-postbuild": "sh tools/heroku.sh build"
+    },
+    "dependencies": {
+        "vue": "^2.6.10"
     }
 }
